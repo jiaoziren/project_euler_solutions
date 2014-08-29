@@ -9,5 +9,4 @@ for i in range(1000):
 		stack.append(i)
 
 #sum of all numbers in the list
-print stack
 print sum(stack)

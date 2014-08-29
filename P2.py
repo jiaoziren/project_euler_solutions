@@ -7,4 +7,4 @@ while a < 4000000:
 	list.append(a)
 	a, b = b, a+b
 
-print  sum(filter(lambda a: a%2 == 0, list))
+print sum(filter(lambda a: a%2 == 0, list))
